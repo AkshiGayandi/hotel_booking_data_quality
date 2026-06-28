@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking Data Quality Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; background: #f9f9f9; }
+        h1 { color: #333; }
+        table { border-collapse: collapse; width: 100%; background: white; }
+        th { background: #333; color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #ddd; }
+        .meta { color: #888; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🏨 Hotel Booking Data Quality Report</h1>
+    <p class="meta">Generated: 2026-06-28 23:53 |
+    Dataset: hotel_bookings.csv | Total rows: 119390</p>
+    <table>
+        <tr>
+            <th>Check</th>
+            <th>Issues Found</th>
+            <th>Status</th>
+        </tr>
+        
+    <tr style="background:#e5ffe5">
+        <td>Null ADR (price) values</td>
+        <td>0</td>
+        <td>✅ PASS</td>
+    </tr>
+    <tr style="background:#ffe5e5">
+        <td>Duplicate bookings</td>
+        <td>8613</td>
+        <td>❌ FAIL</td>
+    </tr>
+    <tr style="background:#ffe5e5">
+        <td>Negative room price</td>
+        <td>1</td>
+        <td>❌ FAIL</td>
+    </tr>
+    <tr style="background:#ffe5e5">
+        <td>Zero guests</td>
+        <td>180</td>
+        <td>❌ FAIL</td>
+    </tr>
+    <tr style="background:#e5ffe5">
+        <td>Invalid lead time</td>
+        <td>0</td>
+        <td>✅ PASS</td>
+    </tr>
+    <tr style="background:#ffe5e5">
+        <td>Room type mismatch</td>
+        <td>14917</td>
+        <td>❌ FAIL</td>
+    </tr>
+    </table>
+</body>
+</html>
