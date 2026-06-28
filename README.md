@@ -2,7 +2,7 @@
 
 I built this to practice data validation using SQL and Python on a real dataset.
 
-The idea was simple — instead of just analyzing hotel booking data, I wanted to check if the data itself is trustworthy. Bad data causes real problems: wrong pricing, incorrect invoicing, broken reports.
+The idea was simple - instead of just analyzing hotel booking data, I wanted to check if the data itself is trustworthy. Bad data causes real problems: wrong pricing, incorrect invoicing, broken reports.
 
 ## What it checks
 
@@ -23,7 +23,7 @@ Python, SQLite, Pandas
 
 ## Dataset
 
-Hotel Booking Demand from Kaggle — 119,390 rows
+Hotel Booking Demand from Kaggle - 119,390 rows
 
 ## Results
 
